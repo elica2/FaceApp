@@ -1,0 +1,62 @@
+{
+  "Teban": {
+    "n_images": 10,
+    "faces_detected": 10,
+    "registered_at": "2026-05-13 19:11:13",
+    "model": "ArcFace"
+  },
+  "Rodri": {
+    "n_images": 10,
+    "faces_detected": 10,
+    "registered_at": "2026-05-13 19:32:06",
+    "model": "ArcFace"
+  },
+  "Rafa": {
+    "n_images": 10,
+    "faces_detected": 10,
+    "registered_at": "2026-05-15 07:39:44",
+    "model": "ArcFace"
+  },
+  "Christopher Nolan": {
+    "n_images": 10,
+    "faces_detected": 10,
+    "registered_at": "2026-05-15 08:08:53",
+    "model": "ArcFace"
+  },
+  "Billie Eilish": {
+    "n_images": 10,
+    "faces_detected": 10,
+    "registered_at": "2026-05-15 08:13:10",
+    "model": "ArcFace"
+  },
+  "Cillian Murphy": {
+    "n_images": 10,
+    "faces_detected": 10,
+    "registered_at": "2026-05-15 08:16:58",
+    "model": "ArcFace"
+  },
+  "Pedro Pascal": {
+    "n_images": 10,
+    "faces_detected": 10,
+    "registered_at": "2026-05-15 08:19:03",
+    "model": "ArcFace"
+  },
+  "Zendaya": {
+    "n_images": 10,
+    "faces_detected": 10,
+    "registered_at": "2026-05-15 08:21:44",
+    "model": "ArcFace"
+  },
+  "Dani": {
+    "n_images": 10,
+    "faces_detected": 10,
+    "registered_at": "2026-05-15 11:54:50",
+    "model": "ArcFace"
+  },
+  "Cris": {
+    "n_images": 8,
+    "faces_detected": 8,
+    "registered_at": "2026-05-15 12:19:16",
+    "model": "ArcFace"
+  }
+}
