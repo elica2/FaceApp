@@ -4,10 +4,11 @@ WORKDIR /app
 
 COPY requirements.txt .
 
-RUN pip install --no-cache-dir -r requirements.txt && \
-    pip uninstall -y opencv-python tensorflow 2>/dev/null || true && \
-    pip install --no-cache-dir --no-deps opencv-python-headless==4.9.0.80 && \
-    python -c "import cv2; print('cv2 OK:', cv2.__version__)"
+# Instala todo excepto deepface, que se instala sin deps al final
+RUN pip install --no-cache-dir $(grep -v "^deepface" requirements.txt) && \
+    pip install --no-cache-dir --no-deps deepface==0.0.92 && \
+    pip install --no-cache-dir --no-deps retina-face==0.0.13 && \
+    python -c "import cv2; import tensorflow; print('cv2:', cv2.__version__, 'tf:', tensorflow.__version__)"
 
 COPY . .
 
